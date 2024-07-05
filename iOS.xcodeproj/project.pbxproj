@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CCD4B48F2C38289A00124768 /* Blog.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD4B48E2C38289A00124768 /* Blog.swift */; };
+		CCD4B4912C3828A500124768 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD4B4902C3828A500124768 /* Profile.swift */; };
 		CCD982532C381E2B0095DDE8 /* KnutValenDevApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD982522C381E2B0095DDE8 /* KnutValenDevApp.swift */; };
 		CCD982552C381E2B0095DDE8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD982542C381E2B0095DDE8 /* ContentView.swift */; };
 		CCD982572C381E2C0095DDE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCD982562C381E2C0095DDE8 /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CCD4B48E2C38289A00124768 /* Blog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blog.swift; sourceTree = "<group>"; };
+		CCD4B4902C3828A500124768 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		CCD9824F2C381E2B0095DDE8 /* iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCD982522C381E2B0095DDE8 /* KnutValenDevApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnutValenDevApp.swift; sourceTree = "<group>"; };
 		CCD982542C381E2B0095DDE8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -131,6 +135,8 @@
 			isa = PBXGroup;
 			children = (
 				CCD982542C381E2B0095DDE8 /* ContentView.swift */,
+				CCD4B48E2C38289A00124768 /* Blog.swift */,
+				CCD4B4902C3828A500124768 /* Profile.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -265,6 +271,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCD4B48F2C38289A00124768 /* Blog.swift in Sources */,
+				CCD4B4912C3828A500124768 /* Profile.swift in Sources */,
 				CCD982552C381E2B0095DDE8 /* ContentView.swift in Sources */,
 				CCD982532C381E2B0095DDE8 /* KnutValenDevApp.swift in Sources */,
 			);

@@ -8,14 +8,27 @@
 import SwiftUI
 
 struct ContentView: View {
+    enum Tab {
+        case frontPage
+        case profile
+    }
+
+    @State private var selection: Tab = .frontPage
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView(selection: $selection) {
+            Blog()
+                .tabItem {
+                    Label("Front page", systemImage: "house")
+                }
+                .tag(Tab.frontPage)
+
+            Profile()
+                .tabItem {
+                    Label("Profile", systemImage: "person.crop.circle")
+                }
+                .tag(Tab.profile)
         }
-        .padding()
     }
 }
 
